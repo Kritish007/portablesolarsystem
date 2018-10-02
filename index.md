@@ -1,4 +1,4 @@
-repository created!
+Repository created!
 
 Proof Of Purchase
 ![1](https://user-images.githubusercontent.com/42982622/46376431-fb997400-c663-11e8-96d3-f273871e0019.jpg)
