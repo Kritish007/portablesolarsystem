@@ -1,4 +1,5 @@
 #WEEK11- PCB Power Up Milestone:
+I started testing reading data from my ADS1115 using the code from :(link) 
 
 #WEEK10 - PCB Soldered and tested:
 At first, my PCB were not giving a full voltage on SCL as the soldering was incomplete on that pin. I resoldered and it worked(i2cdetect -y 1). Testing was also done for my PCB.
