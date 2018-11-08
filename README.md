@@ -1,6 +1,7 @@
-#WEEK11- PCB Power Up Milestone
+#WEEK11- PCB Power Up Milestone:
+
 #WEEK10 - PCB Soldered and tested:
-At first, my PCB were not giving a full voltage on SCL as the soldering was incomplete on that pin. I resoldered and it worked(i2cdetect -y 1). 
+At first, my PCB were not giving a full voltage on SCL as the soldering was incomplete on that pin. I resoldered and it worked(i2cdetect -y 1). Testing was also done for my PCB.
 ![frontpcb](https://user-images.githubusercontent.com/42982622/48170699-9110cf00-e2c6-11e8-8987-0410192c8bbf.jpg)
 ![backpcb](https://user-images.githubusercontent.com/42982622/48170707-9a9a3700-e2c6-11e8-9e65-0f8f4f284443.jpg)
 
