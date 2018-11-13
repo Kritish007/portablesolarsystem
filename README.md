@@ -3,7 +3,12 @@
 # WEEK13
 # WEEK12
 
-# WEEK11- PCB Power Up Milestone:
+# WEEK11- PCB Power Up Milestone and progress report:
+
+I started testing reading data from my ADS1115 using the code from: http://openlabtools.eng.cam.ac.uk/Resources/Datalog/RPi_ADS1115/code/ADS1115_sample.c
+Screenshot of my readings:
+![test](https://user-images.githubusercontent.com/42982622/48443290-9f476b00-e75e-11e8-828c-c67c150a8aa5.PNG)
+
 Progress Report:
 •	I have my PCB, Raspberry Pi and Solar Panel powered up and receiving readings from my Ads1115 Sensor through Putty. I still need to do a custom laser cut 3d printing case for my project which will include: my PCB, Raspberry Pi where I should have the needed ports for connections visible and my Solar Panel at an appropriate angle to capture enough light.
 
@@ -17,10 +22,6 @@ Progress Report:
 ![image](https://user-images.githubusercontent.com/42982622/48447745-cd32ac80-e76a-11e8-9222-e90a306d9815.png)
 
 
-I started testing reading data from my ADS1115 using the code from: http://openlabtools.eng.cam.ac.uk/Resources/Datalog/RPi_ADS1115/code/ADS1115_sample.c
-Screenshot of my readings:
-![test](https://user-images.githubusercontent.com/42982622/48443290-9f476b00-e75e-11e8-828c-c67c150a8aa5.PNG)
-
 # WEEK10 - PCB Soldered and tested:
 At first, my PCB were not giving a full voltage on SCL as the soldering was incomplete on that pin. I resoldered and it worked(i2cdetect -y 1). Testing was also done for my PCB.
 ![frontpcb](https://user-images.githubusercontent.com/42982622/48170699-9110cf00-e2c6-11e8-8987-0410192c8bbf.jpg)
@@ -30,9 +31,9 @@ At first, my PCB were not giving a full voltage on SCL as the soldering was inco
 PCB Designed: on fritzing.
 ![latest_pcb](https://user-images.githubusercontent.com/42982622/48170594-3d05ea80-e2c6-11e8-8011-1853b33bb692.png)
 
-# WEEK8 - Breadboard Milestone:
+# WEEK8 - Breadboard Milestone and progress report:
 ![breadboard](https://user-images.githubusercontent.com/42982622/48170806-18f6d900-e2c7-11e8-90bd-214967c04462.jpg)
-Progress Report:
+
 •	I believe I am 10 days ahead of my Project Schedule. Soldering and power up my ADC1115 testing have been done. 
 
 •	So far, I have already setup my raspberry pi 3b for programming. I have also started to test my ADC1115 with programs which are showing me values for voltage inputs.
