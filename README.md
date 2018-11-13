@@ -6,19 +6,18 @@
 # WEEK11- PCB Power Up Milestone and progress report:
 
 I started testing reading data from my ADS1115 using the code from: http://openlabtools.eng.cam.ac.uk/Resources/Datalog/RPi_ADS1115/code/ADS1115_sample.c
-Screenshot of my readings:
-![test](https://user-images.githubusercontent.com/42982622/48443290-9f476b00-e75e-11e8-828c-c67c150a8aa5.PNG)
 
+Screenshot of my readings:
+
+![test](https://user-images.githubusercontent.com/42982622/48443290-9f476b00-e75e-11e8-828c-c67c150a8aa5.PNG)
 Progress Report:
+
 •	I have my PCB, Raspberry Pi and Solar Panel powered up and receiving readings from my Ads1115 Sensor through Putty. I still need to do a custom laser cut 3d printing case for my project which will include: my PCB, Raspberry Pi where I should have the needed ports for connections visible and my Solar Panel at an appropriate angle to capture enough light.
 
 •	If we look at my Project Schedule, we are in task 5 which I should be rehearsing for presentation and start working on enclosure which is due in Week 12.
-
 •	Financial reports remain intact. No other parts were ordered. It should be around December when I will get together for a meeting with my partner when I will order the NCP1402 5 volts voltage regulator.
-
 •	My plans for next week is to have the case ready and start preparing my project build instruction.
-
-•	However my project differs a little bit from my Proposal. At this moment I just have readings from my Solar Panel. I have not implemented battery and battery charger circuit yet. For the next year project, in order to make the raspberry Pi run on battery instead of AC power supply, I will have to use a Step Up voltage regulator(NCP1402) to give a constant 5 volts from the varying load output from the battery charger circuit. Here is a picture of the battery charger circuit:
+•	However my project differs a little bit from my Proposal. At this moment I just have readings from my Solar Panel. I have not implemented battery and battery charger circuit yet. For the next year project, in order to make the raspberry Pi run on battery instead of AC power supply, I will have to use a Step Up voltage regulator(NCP1402) to give a constant 5 volts from the varying load output from the battery charger circuit. Here is a picture of the battery charger circuit which I am going to use next year also:
 ![image](https://user-images.githubusercontent.com/42982622/48447745-cd32ac80-e76a-11e8-9222-e90a306d9815.png)
 
 
