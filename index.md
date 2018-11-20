@@ -2,7 +2,8 @@
 # WEEK14
 # WEEK13
 # WEEK12
-Link to File design: [Solar-Panel Design .pdf](https://github.com/Kritish007/portablesolarsystem/files/2601737/Solar-Panel.Design.pdf)
+Link to case designed in CorelDraw PDF: [Panel case.pdf](https://github.com/Kritish007/portablesolarsystem/files/2601861/Panel.case.pdf)
+Link to case designed in paint: [Solar-Panel Design .pdf](https://github.com/Kritish007/portablesolarsystem/files/2601737/Solar-Panel.Design.pdf)
 
 
 ![frontend](https://user-images.githubusercontent.com/42982622/48801619-d8418b80-ecda-11e8-99e1-b1883ea4e5f4.jpg)
