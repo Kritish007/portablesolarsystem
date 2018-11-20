@@ -6,6 +6,7 @@ Link to File design: [Solar-Panel Design .pdf](https://github.com/Kritish007/por
 
 ![frontend](https://user-images.githubusercontent.com/42982622/48801619-d8418b80-ecda-11e8-99e1-b1883ea4e5f4.jpg)
 ![backend](https://user-images.githubusercontent.com/42982622/48801703-0cb54780-ecdb-11e8-939e-ab037ac2cf3d.jpg)
+
 # WEEK11- PCB Power Up Milestone and progress report:
 
 I started testing reading data from my ADS1115 using the code from: http://openlabtools.eng.cam.ac.uk/Resources/Datalog/RPi_ADS1115/code/ADS1115_sample.c
