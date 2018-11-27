@@ -3,7 +3,7 @@
 # WEEK14 - Presentation Cont.
 
 # WEEK13 - Presentation Due
-Presentation in powerpoint: [Ads1115SolarPanelFinalPresentation.pptx](https://github.com/Kritish007/portablesolarsystem/files/2621746/Ads1115SolarPanelFinalPresentation.pptx)
+Presentation in powerpoint: [Ads1115SolarPanelFinalPresentation.pptx](https://github.com/Kritish007/portablesolarsystem/files/2621762/Ads1115SolarPanelFinalPresentation.pptx)
 
 # WEEK12 - Enclosure Due
 Link to case designed in CorelDraw PDF: [Panel case.pdf](https://github.com/Kritish007/portablesolarsystem/files/2601861/Panel.case.pdf)
