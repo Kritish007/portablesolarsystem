@@ -1,9 +1,11 @@
-# WEEK15
-# WEEK14
-# WEEK13
+# WEEK15 - Build instruction Due
+
+# WEEK14 - Presentation Cont.
+
+# WEEK13 - Presentation Due
 Presentation in powerpoint: [Ads1115SolarPanelFinalPresentation.pptx](https://github.com/Kritish007/portablesolarsystem/files/2621480/Ads1115SolarPanelFinalPresentation.pptx)
 
-# WEEK12
+# WEEK12 - Enclosure Due
 Link to case designed in CorelDraw PDF: [Panel case.pdf](https://github.com/Kritish007/portablesolarsystem/files/2601861/Panel.case.pdf)
 Link to case designed in paint: [Solar-Panel Design .pdf](https://github.com/Kritish007/portablesolarsystem/files/2601737/Solar-Panel.Design.pdf)
 
