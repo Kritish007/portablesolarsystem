@@ -1,6 +1,7 @@
 # WEEK15 - Build instruction Due
 
 # WEEK14 - Presentation Cont.
+ABSENT
 
 # WEEK13 - Presentation Due
 Presentation in powerpoint: [Ads1115SolarPanelFinalPresentation.pptx](https://github.com/Kritish007/portablesolarsystem/files/2621762/Ads1115SolarPanelFinalPresentation.pptx)
