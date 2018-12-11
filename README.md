@@ -4,6 +4,9 @@
 ![back](https://user-images.githubusercontent.com/42982622/49824316-d30eb400-fd4f-11e8-99d3-79dec2b79726.jpg)
 ![systemdiagram](https://user-images.githubusercontent.com/42982622/49824267-bd998a00-fd4f-11e8-92d5-ba7e46c13b23.jpg)
 
+In order to use ssh connection to my raspberry pi, I had to enable ssh and install xrdp on my raspberry pi before I could get connected. Moreover, I had to install gnu/c compiler as the program I used is in c. Also, from the windows, I had to go to Network and sharing center where I had to go to properties/sharing, ticked the: allow other network users to connect through this computer's internet connection and selected Ethernet from the drop down list. <br/>
+
+
 
 # Bill of Materials/Budget
 ![1](https://user-images.githubusercontent.com/42982622/46377610-0a355a80-c667-11e8-8eae-219a86079d8f.jpg)
@@ -24,6 +27,7 @@ Male DC Power Adapter $4  <br/>
 
 # Time Commitment
 ![timecommitment](https://user-images.githubusercontent.com/42982622/49824569-65af5300-fd50-11e8-90a7-5e976da4524b.png)
+Even though I have stated it would take me 15 weeks to fully complete this project with its instruction, the project can be fresh started and be finished within 7 weeks. The parts ordered and pcb soldering are the major part in time consuming. <br/>
 
 # Mechanical Assembly
 A change of address from 0x48 to 0x4B was required. This was done by connecting the ADDR to the SCL pin.
@@ -33,6 +37,8 @@ A change of address from 0x48 to 0x4B was required. This was done by connecting 
 
 # PCB / Soldering
 For designing the printed circuit board, I have made use of the software Fritzing as it is a user friendly software to help design and print my pcb. The printed pcb required Gerber files which the printing maching will recognise. <br/>
+Please follow the soldering instructions and safety before soldering your pcb. Remember to wear the safety glass. <br/>
+This is how my PCB looks after soldering: <br/>
 ![frontpcb](https://user-images.githubusercontent.com/42982622/49824367-ec176500-fd4f-11e8-8703-3669a34bdb7f.jpg)
 ![backpcb](https://user-images.githubusercontent.com/42982622/49824368-ec176500-fd4f-11e8-8948-25bf8d5d45ef.jpg)
 
@@ -105,8 +111,6 @@ else{
   return 0;
 
 }
-
-
 ```
 
 # Unit Testing
