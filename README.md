@@ -9,7 +9,7 @@ Please be aware that my sensor is hidden under the large Pi Cobbler cable. <br/>
 ![back](https://user-images.githubusercontent.com/42982622/49824316-d30eb400-fd4f-11e8-99d3-79dec2b79726.jpg)
 
 
-In order to use ssh connection to my raspberry pi, I had to enable ssh and install xrdp on my raspberry pi before I could get connected. Moreover, I had to install gnu/c compiler as the program I used is in c. Also, from the windows, I had to go to Network and sharing center where I had to go to properties/sharing, ticked the: allow other network users to connect through this computer's internet connection and selected Ethernet from the drop down list. <br/>
+Concerning software, in order to use ssh connection to my raspberry pi, I had to enable ssh and install xrdp on my raspberry pi before I could get connected. Moreover, I had to install gnu/c compiler as the program I used is in c. Also, from the windows, I had to go to Network and sharing center where I had to go to properties/sharing, ticked the: allow other network users to connect through this computer's internet connection and selected Ethernet from the drop down list. <br/>
 
 
 
@@ -32,12 +32,12 @@ Male DC Power Adapter $4  <br/>
 
 # Time Commitment
 ![timecommitment](https://user-images.githubusercontent.com/42982622/49824569-65af5300-fd50-11e8-90a7-5e976da4524b.png)
-Even though I have stated it would take me 15 weeks to fully complete this project with its instruction, the project can be fresh started and be finished within 7 weeks. The parts ordered and pcb soldering are the major part in time consuming. <br/>
+Even though I have stated it would take me 15 weeks to fully complete this project with its instruction, the project can be fresh started and be finished within 7 weeks. The parts ordered, PCB printing and PCB soldering plays a major part in completion of the project. <br/>
 
 # Mechanical Assembly
 A change of address from 0x48 to 0x4B was required. This was done by connecting the ADDR to the SCL pin. <br/>
-![assemble](https://user-images.githubusercontent.com/42982622/49825234-ede22800-fd51-11e8-8b8d-6abb57f44af8.jpg)
 The ads1115 was connected to a 10 pin header which was soldered on the pcb. In addition, as you can see, I have soldered my pi Cobbler also to the PCB. There is also a pair of 10K resistors which is working to divide the voltage from the solar panel and to my sensor. This is done to avoid burning my sensor as it is recommended to measure a voltage of less than 3.3v. <br/>
+After receiving my case, I had to glue the front end of the case to the back end of the case including its 'holder' which will hold the solar panel. I had to use 2 screws to hold the broadcom development platform, 2 screws for holding the pcb with all the components already soldered to it. At the top of the panel, I used a small piece of plastic and a screw to hold the panel firm.
 
 
 # PCB / Soldering
@@ -121,6 +121,7 @@ else{
 ```
 
 # Unit Testing
+![assemble](https://user-images.githubusercontent.com/42982622/49825234-ede22800-fd51-11e8-8b8d-6abb57f44af8.jpg)
 ![i2cdetect](https://user-images.githubusercontent.com/42982622/49824587-6d6ef780-fd50-11e8-9925-e4cbc1b9c42a.png)
 To test if my sensor is working, I have to ensure the following connection is done: <br/>
 1. VCC is connected to 3.3v to my pi Cobbler board <br/>
@@ -129,10 +130,8 @@ To test if my sensor is working, I have to ensure the following connection is do
 4. SDA is connected to SDA to my pi Cobbler board <br/>
 5. Test: sudo i2cdetect -y 1 <br/>
 # Production Testing
-From the acrylic case I made, there could be a little modification to resize the overall project into a smaller and very particular case. The pi Cobbler could be bypassed, but then the connections will have to be direct to the raspberry pi. This would minus a $20 from the budget.
+From the acrylic case I made, there could be a little modification to resize the overall project into a smaller and very particular case. The pi Cobbler could be bypassed, but then the connections will have to be direct to the raspberry pi. This would minus a $20 from the budget. The soldering process can be done through machine.. Testing can be done. ..
 ![front](https://user-images.githubusercontent.com/42982622/49824300-cdb16980-fd4f-11e8-898e-ef7c0ce9466d.jpg)
 ![back](https://user-images.githubusercontent.com/42982622/49824316-d30eb400-fd4f-11e8-99d3-79dec2b79726.jpg)
 
-
-# Is the project reproducible by following your instructions?
-This would require a working time between 3-8 weeks depending on the required parts to arrive within the time frame. In general, the project is reproducible by following this instruction. It might need a little of more knowledge about setting up raspberry pi, remote desktop connection and safely power off the project. 
+This would require a working time between 3-8 weeks depending on the required parts to arrive within the time frame. In general, the project is reproducible by following this instruction. It might need a little of more knowledge about setting up raspberry pi, remote desktop connection and safely power off the project. Please refer to the following websites if you encounter problem while setting up the components: 
