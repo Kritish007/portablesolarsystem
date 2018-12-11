@@ -50,7 +50,7 @@ This is how my PCB looks after soldering: <br/>
 
 
 # Power Up
-![poweruptesting](https://user-images.githubusercontent.com/42982622/49824351-e457c080-fd4f-11e8-9f5e-c7b8d0077b0d.png)
+![poweruptesting](https://user-images.githubusercontent.com/42982622/49824351-e457c080-fd4f-11e8-9f5e-c7b8d0077b0d.png) <br/>
 From my code below, you can see I have multipled the receiving result by 2.048 as it is covering the job of the resistors. The resistors basically divides the voltage by 2. I have multiplied by 2 to give a reliable result. <br/>
 
 ```ads1115.c```
