@@ -115,7 +115,17 @@ else{
 
 # Unit Testing
 ![i2cdetect](https://user-images.githubusercontent.com/42982622/49824587-6d6ef780-fd50-11e8-9925-e4cbc1b9c42a.png)
-
+To test if my sensor is working, I have to ensure the following connection is done: <br/>
+1. VCC is connected to 3.3v to my pi Cobbler board <br/>
+2. GND is connected to GND to my pi Cobbler board <br/>
+3. SCL is connected to SCL to my pi Cobbler board <br/>
+4. SDA is connected to SDA to my pi Cobbler board <br/>
+5. Test: sudo i2cdetect -y 1 <br/>
 # Production Testing
+From the acrylic case I made, there could be a little modification to resize the overall project into a smaller and very particular case. The pi Cobbler could be bypassed, but then the connections will have to be direct to the raspberry pi. This would minus a $20 from the budget.
+![front](https://user-images.githubusercontent.com/42982622/49824300-cdb16980-fd4f-11e8-898e-ef7c0ce9466d.jpg)
+![back](https://user-images.githubusercontent.com/42982622/49824316-d30eb400-fd4f-11e8-99d3-79dec2b79726.jpg)
+
 
 # Is the project reproducible by following your instructions?
+This would require a working time between 3-8 weeks depending on the required parts to arrive within the time frame. In general, the project is reproducible by following this instruction. It might need a little of more knowledge about setting up raspberry pi, remote desktop connection and safely power off the project. 
