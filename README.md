@@ -131,6 +131,6 @@ To test if my sensor is working, I have to ensure the following connection is do
 4. SDA is connected to SDA to my pi Cobbler board <br/>
 5. Test: sudo i2cdetect -y 1 <br/>
 # Production Testing
-From the acrylic case I made, there could be a little modification to resize the overall project into a smaller and very particular case. The pi Cobbler could be bypassed, but then the connections will have to be direct to the raspberry pi. This would minus a $20 from the budget. The soldering process can be done through machine.. Testing can be done.
+From the acrylic case I made, there could be a little modification to resize the overall project into a smaller and very particular case. The pi Cobbler could be bypassed, but then the connections will have to be direct to the raspberry pi. This would minus a $20 from the budget. If the same project is being manufactured in big quantity, the soldering process can be done through machine to speed up the process. Also, a mass testing of the project can be done by connecting every single one to Wi-Fi, and connecting to them through remote desktop connection.
 
 This would require a working time between 3-8 weeks depending on the required parts to arrive within the time frame. In general, the project is reproducible by following this instruction. It might need a little of more knowledge about setting up raspberry pi, remote desktop connection and safely power off the project. Please refer to the following websites if you encounter problem while setting up the components: 
