@@ -1,4 +1,13 @@
 # portablesolarsystem
+### Table of Contents
+1.  [Introduction](#Introduction-using-a-system-diagram)
+2.  [Bill of Materials](#Bill-of-Materials/Budget) 
+3.  [Time Commitment](#-Time-Commitment)
+4.  [Mechanical Assembly](#Mechanical-Assembly)
+5.  [PCB/Soldering](#PCB-/-Soldering)
+6.  [Power Up](#Power-Up)
+7.  [Unit Testing](#Unit-Testing)
+8.  [Production Testing](#Production-Testing)
 # Introduction using a system diagram
 ![system design](https://user-images.githubusercontent.com/42982622/49830478-453ac500-fd5f-11e8-8344-6b2f8369185e.png)
 This is my sensor which I used: <br/>
