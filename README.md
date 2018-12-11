@@ -1,8 +1,9 @@
 # portablesolarsystem
 # Introduction using a system diagram
+![systemdiagram](https://user-images.githubusercontent.com/42982622/49824267-bd998a00-fd4f-11e8-92d5-ba7e46c13b23.jpg)
 ![front](https://user-images.githubusercontent.com/42982622/49824300-cdb16980-fd4f-11e8-898e-ef7c0ce9466d.jpg)
 ![back](https://user-images.githubusercontent.com/42982622/49824316-d30eb400-fd4f-11e8-99d3-79dec2b79726.jpg)
-![systemdiagram](https://user-images.githubusercontent.com/42982622/49824267-bd998a00-fd4f-11e8-92d5-ba7e46c13b23.jpg)
+
 
 In order to use ssh connection to my raspberry pi, I had to enable ssh and install xrdp on my raspberry pi before I could get connected. Moreover, I had to install gnu/c compiler as the program I used is in c. Also, from the windows, I had to go to Network and sharing center where I had to go to properties/sharing, ticked the: allow other network users to connect through this computer's internet connection and selected Ethernet from the drop down list. <br/>
 
@@ -30,9 +31,9 @@ Male DC Power Adapter $4  <br/>
 Even though I have stated it would take me 15 weeks to fully complete this project with its instruction, the project can be fresh started and be finished within 7 weeks. The parts ordered and pcb soldering are the major part in time consuming. <br/>
 
 # Mechanical Assembly
-A change of address from 0x48 to 0x4B was required. This was done by connecting the ADDR to the SCL pin.
+A change of address from 0x48 to 0x4B was required. This was done by connecting the ADDR to the SCL pin. <br/>
 ![assemble](https://user-images.githubusercontent.com/42982622/49825234-ede22800-fd51-11e8-8b8d-6abb57f44af8.jpg)
-
+The ads1115 was connected to a 10 pin header which was soldered on the pcb. In addition, as you can see, I have soldered my pi Cobbler also to the PCB. There is also a pair of 10K resistors which is working to divide the voltage from the solar panel and to my sensor. This is done to avoid burning my sensor as it is recommended to measure a voltage of less than 3.3v. <br/>
 
 
 # PCB / Soldering
@@ -45,6 +46,8 @@ This is how my PCB looks after soldering: <br/>
 
 # Power Up
 ![poweruptesting](https://user-images.githubusercontent.com/42982622/49824351-e457c080-fd4f-11e8-9f5e-c7b8d0077b0d.png)
+From my code below, you can see I have multipled the receiving result by 2.048 as it is covering the job of the resistors. The resistors basically divides the voltage by 2. I have multiplied by 2 to give a reliable result. <br/>
+
 ```ads1115.c```
 ```
 /* 
