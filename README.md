@@ -49,14 +49,12 @@ A change of address from 0x48 to 0x4B was required. This was done by connecting 
 The ads1115 was connected to a 10 pin header which was soldered on the pcb. In addition, as you can see, I have soldered my pi Cobbler also to the PCB. There is also a pair of 10K resistors which is working to divide the voltage from the solar panel and to my sensor. This is done to avoid burning my sensor as it is recommended to measure a voltage of less than 3.3v. <br/>
 After receiving my case, I had to glue the front end of the case to the back end of the case including its 'holder' which will hold the solar panel. I had to use 2 screws to hold the broadcom development platform, 2 screws for holding the pcb with all the components already soldered to it. At the top of the panel, I used a small piece of plastic and a screw to hold the panel firm.
 
-
 # PCB Soldering
 For designing the printed circuit board, I have made use of the software Fritzing as it is a user friendly software to help design and print my pcb. The printed pcb required Gerber files which the printing maching will recognise. <br/>
 Please follow the soldering instructions and safety before soldering your pcb. Remember to wear the safety glass. <br/>
 This is how my PCB looks after soldering: <br/>
 ![frontpcb](https://user-images.githubusercontent.com/42982622/49824367-ec176500-fd4f-11e8-8703-3669a34bdb7f.jpg)
 ![backpcb](https://user-images.githubusercontent.com/42982622/49824368-ec176500-fd4f-11e8-8948-25bf8d5d45ef.jpg)
-
 
 # Power Up
 ![poweruptesting](https://user-images.githubusercontent.com/42982622/49824351-e457c080-fd4f-11e8-9f5e-c7b8d0077b0d.png) <br/>
@@ -139,6 +137,7 @@ To test if my sensor is working, I have to ensure the following connection is do
 3. SCL is connected to SCL to my pi Cobbler board <br/>
 4. SDA is connected to SDA to my pi Cobbler board <br/>
 5. Test: sudo i2cdetect -y 1 <br/>
+
 # Production Testing
 From the acrylic case I made, there could be a little modification to resize the overall project into a smaller and very particular case. The pi Cobbler could be bypassed, but then the connections will have to be direct to the raspberry pi. This would minus a $20 from the budget. If the same project is being manufactured in big quantity, the soldering process can be done through machine to speed up the process. Also, a mass testing of the project can be done by connecting every single one to Wi-Fi, and connecting to them through remote desktop connection.
 
