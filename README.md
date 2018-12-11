@@ -3,6 +3,7 @@
 ![systemdiagram](https://user-images.githubusercontent.com/42982622/49824267-bd998a00-fd4f-11e8-92d5-ba7e46c13b23.jpg)
 This is my sensor which I used: <br/>
 ![ads1115](https://user-images.githubusercontent.com/42982622/49827298-fa1cb400-fd56-11e8-92e4-277b1a9c7a47.png)
+Picture was cropped from: https://www.adafruit.com/product/1085 <br/>
 
 Please be aware that my sensor is hidden under the large Pi Cobbler cable. <br/>
 ![front](https://user-images.githubusercontent.com/42982622/49824300-cdb16980-fd4f-11e8-898e-ef7c0ce9466d.jpg)
@@ -130,8 +131,6 @@ To test if my sensor is working, I have to ensure the following connection is do
 4. SDA is connected to SDA to my pi Cobbler board <br/>
 5. Test: sudo i2cdetect -y 1 <br/>
 # Production Testing
-From the acrylic case I made, there could be a little modification to resize the overall project into a smaller and very particular case. The pi Cobbler could be bypassed, but then the connections will have to be direct to the raspberry pi. This would minus a $20 from the budget. The soldering process can be done through machine.. Testing can be done. ..
-![front](https://user-images.githubusercontent.com/42982622/49824300-cdb16980-fd4f-11e8-898e-ef7c0ce9466d.jpg)
-![back](https://user-images.githubusercontent.com/42982622/49824316-d30eb400-fd4f-11e8-99d3-79dec2b79726.jpg)
+From the acrylic case I made, there could be a little modification to resize the overall project into a smaller and very particular case. The pi Cobbler could be bypassed, but then the connections will have to be direct to the raspberry pi. This would minus a $20 from the budget. The soldering process can be done through machine.. Testing can be done.
 
 This would require a working time between 3-8 weeks depending on the required parts to arrive within the time frame. In general, the project is reproducible by following this instruction. It might need a little of more knowledge about setting up raspberry pi, remote desktop connection and safely power off the project. Please refer to the following websites if you encounter problem while setting up the components: 
