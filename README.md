@@ -1,6 +1,10 @@
 # portablesolarsystem
 # Introduction using a system diagram
 ![systemdiagram](https://user-images.githubusercontent.com/42982622/49824267-bd998a00-fd4f-11e8-92d5-ba7e46c13b23.jpg)
+This is my sensor which I used: <br/>
+![ads1115](https://user-images.githubusercontent.com/42982622/49827298-fa1cb400-fd56-11e8-92e4-277b1a9c7a47.png)
+
+Please be aware that my sensor is hidden under the large Pi Cobbler cable. <br/>
 ![front](https://user-images.githubusercontent.com/42982622/49824300-cdb16980-fd4f-11e8-898e-ef7c0ce9466d.jpg)
 ![back](https://user-images.githubusercontent.com/42982622/49824316-d30eb400-fd4f-11e8-99d3-79dec2b79726.jpg)
 
