@@ -24,21 +24,24 @@ Concerning software, in order to use ssh connection to my raspberry pi, I had to
 
 
 # Bill of Materials
-![1](https://user-images.githubusercontent.com/42982622/46377610-0a355a80-c667-11e8-8eae-219a86079d8f.jpg)
-![2](https://user-images.githubusercontent.com/42982622/46377611-0a355a80-c667-11e8-9caf-cc08f2a2db3f.jpg)
-![3](https://user-images.githubusercontent.com/42982622/46377612-0a355a80-c667-11e8-9c26-09587ed1588b.jpg)
-![4](https://user-images.githubusercontent.com/42982622/46377613-0a355a80-c667-11e8-8817-46457f73cb27.jpg)
-
 These are the following components I have used for this semester: <br/>
 Mini encapsulated solar cell Epoxy $14 <br/>
 Raspberry Pi 3 Kit $113 <br/>
 ADS1115 16Bit ADC $15 <br/>
 Pi cobbler $20 <br/>
-Printed Circuit Board, 8 pins socket, customized acrylic casing and other needed utilities were provided by the Prototype Lab. <br/>
-The plan for next semester is to use the following already purchased components: <br/>
+
+Here is a picture of where I purchased the components : <br/>
+![1](https://user-images.githubusercontent.com/42982622/46377610-0a355a80-c667-11e8-8eae-219a86079d8f.jpg)
+![2](https://user-images.githubusercontent.com/42982622/46377611-0a355a80-c667-11e8-9caf-cc08f2a2db3f.jpg)
+![3](https://user-images.githubusercontent.com/42982622/46377612-0a355a80-c667-11e8-9c26-09587ed1588b.jpg)
+![4](https://user-images.githubusercontent.com/42982622/46377613-0a355a80-c667-11e8-8817-46457f73cb27.jpg)
+
+Printed Circuit Board, 10 pins socket, customized acrylic casing and other needed utilities were provided by the Prototype Lab. <br/>
+The plan for next semester is to use the following already purchased components except for the last component: <br/>
 Polymer Charger $19 <br/>
 Lithium Polymer Battery $16 <br/> 
 Male DC Power Adapter $4  <br/>
+NCP1402 5 volts voltage regulator $7 (STILL NEEDS TO PURCHASE) <br/>
 
 # Time Commitment
 ![timecommitment](https://user-images.githubusercontent.com/42982622/49824569-65af5300-fd50-11e8-90a7-5e976da4524b.png)
