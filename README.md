@@ -1,10 +1,10 @@
 # portablesolarsystem
 ### Table of Contents
 1.  [Introduction](#Introduction-using-a-system-diagram)
-2.  [Bill of Materials/Budget](#Bill-of-Materials/Budget) 
+2.  [Bill of Materials/Budget](#Bill-of-Materials) 
 3.  [Time Commitment](#Time-Commitment)
 4.  [Mechanical Assembly](#Mechanical-Assembly)
-5.  [PCB/Soldering](#PCB/Soldering)
+5.  [PCB/Soldering](#PCB-Soldering)
 6.  [Power Up](#Power-Up)
 7.  [Unit Testing](#Unit-Testing)
 8.  [Production Testing](#Production-Testing)
@@ -23,7 +23,7 @@ Concerning software, in order to use ssh connection to my raspberry pi, I had to
 
 
 
-# Bill of Materials/Budget
+# Bill of Materials
 ![1](https://user-images.githubusercontent.com/42982622/46377610-0a355a80-c667-11e8-8eae-219a86079d8f.jpg)
 ![2](https://user-images.githubusercontent.com/42982622/46377611-0a355a80-c667-11e8-9caf-cc08f2a2db3f.jpg)
 ![3](https://user-images.githubusercontent.com/42982622/46377612-0a355a80-c667-11e8-9c26-09587ed1588b.jpg)
@@ -50,7 +50,7 @@ The ads1115 was connected to a 10 pin header which was soldered on the pcb. In a
 After receiving my case, I had to glue the front end of the case to the back end of the case including its 'holder' which will hold the solar panel. I had to use 2 screws to hold the broadcom development platform, 2 screws for holding the pcb with all the components already soldered to it. At the top of the panel, I used a small piece of plastic and a screw to hold the panel firm.
 
 
-# PCB / Soldering
+# PCB Soldering
 For designing the printed circuit board, I have made use of the software Fritzing as it is a user friendly software to help design and print my pcb. The printed pcb required Gerber files which the printing maching will recognise. <br/>
 Please follow the soldering instructions and safety before soldering your pcb. Remember to wear the safety glass. <br/>
 This is how my PCB looks after soldering: <br/>
