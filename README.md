@@ -1,6 +1,6 @@
 # portablesolarsystem
 # Introduction using a system diagram
-![systemdiagram](https://user-images.githubusercontent.com/42982622/49824267-bd998a00-fd4f-11e8-92d5-ba7e46c13b23.jpg)
+![system design](https://user-images.githubusercontent.com/42982622/49830478-453ac500-fd5f-11e8-8344-6b2f8369185e.png)
 This is my sensor which I used: <br/>
 ![ads1115](https://user-images.githubusercontent.com/42982622/49827298-fa1cb400-fd56-11e8-92e4-277b1a9c7a47.png)
 Picture was cropped from: https://www.adafruit.com/product/1085 <br/>
